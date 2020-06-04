@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  TestViewController.h
 //  CardView
 //
 //  Created by Admin on 2020/6/2.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface TestViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

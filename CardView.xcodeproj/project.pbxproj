@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58D75ECCF4B7F38CECF93BEF /* libPods-CardView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E87C976947E444E3CA115729 /* libPods-CardView.a */; };
 		84AAF0DC248633830016DD29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF0DB248633830016DD29 /* AppDelegate.m */; };
-		84AAF0DF248633830016DD29 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF0DE248633830016DD29 /* SceneDelegate.m */; };
 		84AAF0E2248633830016DD29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF0E1248633830016DD29 /* ViewController.m */; };
 		84AAF0E5248633830016DD29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AAF0E3248633830016DD29 /* Main.storyboard */; };
 		84AAF0E7248633850016DD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AAF0E6248633850016DD29 /* Assets.xcassets */; };
@@ -16,6 +16,13 @@
 		84AAF0ED248633850016DD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF0EC248633850016DD29 /* main.m */; };
 		84AAF0F7248633850016DD29 /* CardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF0F6248633850016DD29 /* CardViewTests.m */; };
 		84AAF102248633850016DD29 /* CardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF101248633850016DD29 /* CardViewUITests.m */; };
+		84AAF118248634480016DD29 /* product1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AAF115248634470016DD29 /* product1.png */; };
+		84AAF119248634480016DD29 /* product2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AAF116248634470016DD29 /* product2.png */; };
+		84AAF11A248634480016DD29 /* product3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AAF117248634470016DD29 /* product3.png */; };
+		84AAF11D248635560016DD29 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF11C248635560016DD29 /* TestViewController.m */; };
+		84AAF12024863C3A0016DD29 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF11F24863C3A0016DD29 /* ProductCell.m */; };
+		84AAF12324877A100016DD29 /* DWCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF12224877A100016DD29 /* DWCardScrollView.m */; };
+		84AAF12624877AD30016DD29 /* DWCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF12524877AD30016DD29 /* DWCardCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6A0EA707E9C5EB0B2386C2 /* Pods-CardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardView.debug.xcconfig"; path = "Target Support Files/Pods-CardView/Pods-CardView.debug.xcconfig"; sourceTree = "<group>"; };
 		84AAF0D7248633830016DD29 /* CardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AAF0DA248633830016DD29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84AAF0DB248633830016DD29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84AAF0DD248633830016DD29 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		84AAF0DE248633830016DD29 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		84AAF0E0248633830016DD29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84AAF0E1248633830016DD29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84AAF0E4248633830016DD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +60,19 @@
 		84AAF0FD248633850016DD29 /* CardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AAF101248633850016DD29 /* CardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardViewUITests.m; sourceTree = "<group>"; };
 		84AAF103248633850016DD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AAF115248634470016DD29 /* product1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product1.png; sourceTree = "<group>"; };
+		84AAF116248634470016DD29 /* product2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product2.png; sourceTree = "<group>"; };
+		84AAF117248634470016DD29 /* product3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product3.png; sourceTree = "<group>"; };
+		84AAF11B248635560016DD29 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		84AAF11C248635560016DD29 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		84AAF11E24863C3A0016DD29 /* ProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		84AAF11F24863C3A0016DD29 /* ProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		84AAF12124877A100016DD29 /* DWCardScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWCardScrollView.h; sourceTree = "<group>"; };
+		84AAF12224877A100016DD29 /* DWCardScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWCardScrollView.m; sourceTree = "<group>"; };
+		84AAF12424877AD30016DD29 /* DWCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWCardCell.h; sourceTree = "<group>"; };
+		84AAF12524877AD30016DD29 /* DWCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWCardCell.m; sourceTree = "<group>"; };
+		E87C976947E444E3CA115729 /* libPods-CardView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3F319C123CE7E27A4CAE9A /* Pods-CardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardView.release.xcconfig"; path = "Target Support Files/Pods-CardView/Pods-CardView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D75ECCF4B7F38CECF93BEF /* libPods-CardView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290AB15331680CE62963A145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C6A0EA707E9C5EB0B2386C2 /* Pods-CardView.debug.xcconfig */,
+				FB3F319C123CE7E27A4CAE9A /* Pods-CardView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B81D9FD9A914A9AB25666E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87C976947E444E3CA115729 /* libPods-CardView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84AAF0CE248633830016DD29 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +125,8 @@
 				84AAF0F5248633850016DD29 /* CardViewTests */,
 				84AAF100248633850016DD29 /* CardViewUITests */,
 				84AAF0D8248633830016DD29 /* Products */,
+				290AB15331680CE62963A145 /* Pods */,
+				6B81D9FD9A914A9AB25666E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,11 +145,20 @@
 			children = (
 				84AAF0DA248633830016DD29 /* AppDelegate.h */,
 				84AAF0DB248633830016DD29 /* AppDelegate.m */,
-				84AAF0DD248633830016DD29 /* SceneDelegate.h */,
-				84AAF0DE248633830016DD29 /* SceneDelegate.m */,
 				84AAF0E0248633830016DD29 /* ViewController.h */,
 				84AAF0E1248633830016DD29 /* ViewController.m */,
+				84AAF11B248635560016DD29 /* TestViewController.h */,
+				84AAF11C248635560016DD29 /* TestViewController.m */,
+				84AAF11E24863C3A0016DD29 /* ProductCell.h */,
+				84AAF11F24863C3A0016DD29 /* ProductCell.m */,
+				84AAF12124877A100016DD29 /* DWCardScrollView.h */,
+				84AAF12224877A100016DD29 /* DWCardScrollView.m */,
+				84AAF12424877AD30016DD29 /* DWCardCell.h */,
+				84AAF12524877AD30016DD29 /* DWCardCell.m */,
 				84AAF0E3248633830016DD29 /* Main.storyboard */,
+				84AAF115248634470016DD29 /* product1.png */,
+				84AAF116248634470016DD29 /* product2.png */,
+				84AAF117248634470016DD29 /* product3.png */,
 				84AAF0E6248633850016DD29 /* Assets.xcassets */,
 				84AAF0E8248633850016DD29 /* LaunchScreen.storyboard */,
 				84AAF0EB248633850016DD29 /* Info.plist */,
@@ -144,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84AAF106248633850016DD29 /* Build configuration list for PBXNativeTarget "CardView" */;
 			buildPhases = (
+				F83E7E462B392530CDAD5661 /* [CP] Check Pods Manifest.lock */,
 				84AAF0D3248633830016DD29 /* Sources */,
 				84AAF0D4248633830016DD29 /* Frameworks */,
 				84AAF0D5248633830016DD29 /* Resources */,
@@ -241,8 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AAF0EA248633850016DD29 /* LaunchScreen.storyboard in Resources */,
+				84AAF118248634480016DD29 /* product1.png in Resources */,
+				84AAF119248634480016DD29 /* product2.png in Resources */,
 				84AAF0E7248633850016DD29 /* Assets.xcassets in Resources */,
 				84AAF0E5248633830016DD29 /* Main.storyboard in Resources */,
+				84AAF11A248634480016DD29 /* product3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +314,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F83E7E462B392530CDAD5661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84AAF0D3248633830016DD29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AAF12624877AD30016DD29 /* DWCardCell.m in Sources */,
 				84AAF0E2248633830016DD29 /* ViewController.m in Sources */,
+				84AAF11D248635560016DD29 /* TestViewController.m in Sources */,
 				84AAF0DC248633830016DD29 /* AppDelegate.m in Sources */,
+				84AAF12324877A100016DD29 /* DWCardScrollView.m in Sources */,
 				84AAF0ED248633850016DD29 /* main.m in Sources */,
-				84AAF0DF248633830016DD29 /* SceneDelegate.m in Sources */,
+				84AAF12024863C3A0016DD29 /* ProductCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +517,7 @@
 		};
 		84AAF107248633850016DD29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6A0EA707E9C5EB0B2386C2 /* Pods-CardView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +534,7 @@
 		};
 		84AAF108248633850016DD29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3F319C123CE7E27A4CAE9A /* Pods-CardView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
